@@ -33,7 +33,7 @@ program
     .option('-l, --list', 'show all of the rules available.')
     .option('-c, --config <file>', 'custom configuration file.')
     .option('-r, --rules <ruleid, ruleid=value ...>', 'set all of the rules available.', map)
-    .option('-s, --suppress <file>', 'reduces verbosity when the linting process in finished.')
+    .option('-s, --suppress <file>', 'reduces verbosity within the linting process.')
     .parse(process.argv);
 
 if(program.list){
