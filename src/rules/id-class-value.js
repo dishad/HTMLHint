@@ -18,7 +18,7 @@ HTMLHint.addRule({
             },
             'hump': {
                 'regId': /^[a-z][a-zA-Z\d]*([A-Z][a-zA-Z\d]*)*$/,
-                'message': 'The id and class attribute values must meet the CamelCase style.'
+                'message': 'The id and class attribute values must meet the camelCase style.'
             }
         }, rule;
         if(typeof options === 'string'){
